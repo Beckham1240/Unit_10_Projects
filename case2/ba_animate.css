@@ -15,8 +15,10 @@
 /* Transition Styles */
 /*adds a background image to the nav bar and sets up the nav bar*/
 nav a{
-   background: url(ba_target.png) center / no-repeat;
-   background-image: 0%;
+   background-image: url(ba_target.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 0%;
    color: rgb(253,240,133);
    transition: background-size 0.3s, color 0.8s;
 }
