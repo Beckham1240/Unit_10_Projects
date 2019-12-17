@@ -14,4 +14,29 @@
 */
 
 /* Audio Styles */
+/*adds box shadows and makes the audio player look nicer and makes the background 
+color of it a radial gradiant*/
+audio{
+   display: block;
+   box-shadow: rgb(75, 75, 75) 8px 8px 15px;
+   margin: 20px auto 20px auto;
+   width: 80%;
+   border-radius: 30px;
+}
 
+audio::-webkit-media-controls-panel{
+   background: linear-gradient(to right, white 38%, red);
+}
+
+/*Navigation Styles*/
+/*changes the font color when reloading the page and changes the font color
+and background color when hovered*/
+nav a{
+   transition: color 0.5s;
+}
+
+nav a:hover{
+   display: block;
+   color: rgb(120, 120, 214);
+   background-color: white;
+}
